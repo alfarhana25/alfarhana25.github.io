@@ -1,0 +1,139 @@
+
+ img {
+    border-radius: 50%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+  }
+
+  
+  .header-title {
+    background-color: lightblue;
+    padding: 2px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Garamond, Arial, sans-serif;
+  }
+
+.contents-menu {
+    display: flex;
+    width: fixed;
+    gap: 35px;
+    justify-content: center;
+    font-size: 18px;
+    
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: 4px solid lightblue;
+    border-bottom: 2px solid black;
+    font-family: Garamond;
+}    
+
+a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: aliceblue;
+
+}
+.container2{
+  width: 500px;
+  padding-left: 50px;
+  padding-bottom: 150px;
+
+}
+.container1{
+    padding-right:50px ;
+    padding-bottom: 450px;
+  
+    border-right: solid black 1px;
+}
+
+.contents-menu-color{
+    color: #528AAE
+}
+
+.container-pro-max {
+    background-color: aliceblue;
+}
+
+.right {
+    text-align: right;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+ 
+@media 
+only screen and (max-width: 750px) {
+ 
+    img {
+        border-radius: 50%;
+        padding-top: 2%;
+        padding-bottom: 1%;
+      }
+    
+      
+      .header-title {
+        background-color: lightblue;
+        padding: 2px;
+        text-align: center;
+        top : 0;
+        right: 0;
+        color: black;
+        font-size: 30px;
+        font-family: Helvetica, Arial, sans-serif;
+      }
+    
+    .contents-menu {
+        display: flex;
+        width: fixed;
+        gap: 35px;
+        justify-content: center;
+        font-size: 18px;
+        padding-bottom: 1%;
+        padding-top: 1%;
+        border-top: 4px solid lightblue;
+        border-bottom: 2px solid black;
+        font-family: 'Arial', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }    
+    
+    a {
+        text-decoration: none;
+        color: black;
+       
+    }
+    
+    .container{
+        display:flex;
+        flex-direction: coloumn;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    .container2{
+        border-top: solid black 1px;
+        width: 500px;
+    
+    }
+    .container1{
+            padding-right:50px ;
+            padding-bottom: 100px;
+            border-right: solid transparent 1px;
+            
+
+    }
+     
+}
