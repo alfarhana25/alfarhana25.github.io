@@ -76,9 +76,13 @@ footer {
     text-align: center;
 }
  
+.email {
+    color: #3186bb;
+    font-family: Garamond, Arial, sans-serif;
+}
+
 @media 
 only screen and (max-width: 750px) {
- 
     img {
         border-radius: 50%;
         padding-top: 2%;
